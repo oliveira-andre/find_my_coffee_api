@@ -5,6 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
 
+gem 'activerecord-postgis-adapter'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'dotenv-rails'
 gem 'pg', '>= 0.18', '< 2.0'
